@@ -147,7 +147,7 @@ namespace wsEstacionGUA_BioSalc
                 var content = response.Content;                         //Almacenando el contenido del Request.
             try
             {
-                JObject rss = JObject.Parse(content.ToString());    //Convirtiendo el resulta a un "JObject"
+                JObject rss = JObject.Parse(content.ToString());        //Convirtiendo el resulta a un "JObject"
                 JToken value = rss["node"][0]["v"][0]["value"];        // Accediendo al campo "value" (Valor del nodo requerido).
 
                 dtClima.DefaultView[0][column] = value;               
