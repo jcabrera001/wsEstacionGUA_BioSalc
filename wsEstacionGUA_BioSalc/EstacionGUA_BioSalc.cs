@@ -109,7 +109,7 @@ namespace wsEstacionGUA_BioSalc
                 Data(sessionID, "3044", "eva"); //EvapoTranspiración.    
                 Data(sessionID, "4616", "hsol"); // Horas Sol. (Real 6700)
                 Data(sessionID, "6694", "hluz"); //Horas luz.   (Real 4660)
-                Insert(sessionID); //Ejecutar la inserción y hacer el Loguot del API.
+                Insert(sessionID); //Ejecutar la insercción y hacer el Loguot del API.
             }
             catch(Exception ex)
             {
